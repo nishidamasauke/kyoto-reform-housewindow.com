@@ -956,6 +956,8 @@ html, body {
     padding-top: 20px;
     padding-bottom: 12px;
     margin-bottom: 36px;
+	position:relative;
+	z-index: 8;
   }
   .footer_backtop .back_top {
     cursor: pointer;
