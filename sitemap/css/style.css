@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px), print {
+  .ttl {
+    background: url("../images/banner.jpg") no-repeat;
+    -moz-background-size: cover;
+         background-size: cover;
+    position: relative;
+  }
+  .sitemap {
+    background: #f6f2e6;
+  }
+  .sitemap_inner .cp_profile {
+    padding: 100px 0;
+    position: relative;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: 2;
+  }
+  .sitemap_inner .cp_profile_ct {
+    padding: 50px 60px 70px;
+    background: #fff;
+    margin: 0 100px;
+    position: relative;
+    top: 50px;
+  }
+  .sitemap_inner .cp_profile_ct h3 {
+    font-size: 2.4rem;
+    line-height: 1;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .sitemap_inner .cp_profile:after {
+    position: absolute;
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: #f1ecde;
+    top: 100px;
+    z-index: -1;
+    left: -webkit-calc(50% - 340px);
+    left: -moz-calc(50% - 340px);
+    left: calc(50% - 340px);
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .ttl {
+    background: url("../images/banner.jpg") no-repeat;
+    -moz-background-size: cover;
+         background-size: cover;
+    position: relative;
+  }
+  .sitemap {
+    background: #f6f2e6;
+  }
+  .sitemap_inner .cp_profile {
+    padding: 13.33333vw 0;
+    position: relative;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: 2;
+  }
+  .sitemap_inner .cp_profile_ct {
+    padding: 6.66667vw 4vw 9.33333vw;
+    background: #fff;
+    position: relative;
+    top: 6.66667vw;
+  }
+  .sitemap_inner .cp_profile_ct h3 {
+    font-size: 4.53333vw;
+    line-height: 1;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    text-align: center;
+  }
+  
+  .sitemap_inner .cp_profile:after {
+    position: absolute;
+    content: "";
+    width: 200%;
+    height: 90%;
+    background: #f1ecde;
+    top: 13.33333vw;
+    z-index: -1;
+    left: -webkit-calc(50% - 45.33333vw);
+    left: -moz-calc(50% - 45.33333vw);
+    left: calc(50% - 45.33333vw);
+  }
+}
+
+.sitemap .sitemap_link ul li a{
+	font-weight:bold;
+	display:block;
+	background:#eee;
+	padding:15px 10px;
+	margin:10px 0;
+	position:relative;
+	padding-left:30px
+}
+.sitemap .sitemap_link ul li a:before{
+  content:"▼";
+  font-size:12px;
+  position:absolute;
+  left:10px;
+  top:0;
+  bottom:0;
+  margin:auto;
+  height:12px;
+  transform:rotate(-90deg);
+}

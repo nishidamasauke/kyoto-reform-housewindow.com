@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px), print {
+  .ttl {
+    background: url("../images/banner.jpg") no-repeat;
+    -moz-background-size: cover;
+         background-size: cover;
+    position: relative;
+  }
+  .privacy {
+    background: #f6f2e6;
+  }
+  .privacy_inner .cp_profile {
+    padding: 100px 0;
+    position: relative;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: 2;
+  }
+  .privacy_inner .cp_profile_ct {
+    padding: 50px 60px 70px;
+    background: #fff;
+    margin: 0 100px;
+    position: relative;
+    top: 50px;
+  }
+  .privacy_inner .cp_profile_ct h3 {
+    font-size: 2.4rem;
+    line-height: 1;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .privacy_inner .cp_store {
+    background: #e9e5db;
+    padding: 123px 0 118px;
+  }
+  .privacy_inner .cp_store_ct h3 {
+    font-size: 2.4rem;
+    line-height: 1;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .privacy_inner .cp_store_ct p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #000000;
+    font-weight: 500;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .ttl {
+    background: url("../images/banner.jpg") no-repeat;
+    -moz-background-size: cover;
+         background-size: cover;
+    position: relative;
+  }
+  .privacy {
+    background: #f6f2e6;
+  }
+  .privacy_inner .cp_profile {
+    padding: 13.33333vw 0;
+    position: relative;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+            transform: translateZ(0);
+    z-index: 2;
+  }
+  .privacy_inner .cp_profile_ct {
+    padding: 6.66667vw 4vw 9.33333vw;
+    background: #fff;
+    position: relative;
+    top: 6.66667vw;
+  }
+  .privacy_inner .cp_profile_ct h3 {
+    font-size: 4.53333vw;
+    line-height: 1;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    text-align: center;
+  }
+}
+
+
+.privacy .commit .inner p{
+	margin:0 0 15px;
+}
+.privacy .commit .inner dl dt{
+	font-size:1.167em;
+	font-weight:bold;
+	padding:5px;
+	border-bottom:1px solid #CCC;
+	margin:0 0 15px;
+}
+.privacy .commit .inner dl dd{
+	margin:0 0 40px;
+}
+
