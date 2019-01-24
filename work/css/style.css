@@ -321,7 +321,22 @@
     width: calc(100% - 170px - 32px);
     background-color: #e1dbcb;
     padding: 41px 20px 0 38px;
+ 	position: relative;
+	display: inline-block;
+	min-width: 120px;
+ 	max-width: 100%;
+	font-size: 16px;
+	  border-radius: 5px;
   }
+	.work .sec_block03_inner .txt:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -30px;
+ 	margin-top: -15px;
+	border: 15px solid transparent;
+	border-right: 15px solid #e1dbcb;
+	}
   .work .sec_block03_inner .txt h5 {
     font-size: 2rem;
     font-weight: bold;

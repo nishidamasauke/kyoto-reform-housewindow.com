@@ -1,6 +1,8 @@
 @media screen and (min-width: 769px), print {
   .mv {
     position: relative;
+	height: 1050px;
+    overflow: hidden;
   }
   .mv > picture {
     display: block;
@@ -35,12 +37,23 @@
   .mv_txt .txt_top {
     position: absolute;
     top: 31px;
-    left: 0;
-    font-size: 3.5rem;
+    left: 30px;
+    font-size: 3.2rem;
     color: #ca391b;
     font-weight: bold;
     width: 100%;
-    text-align: center;
+    text-align: left;
+  }
+  .mv_txt .txt_toph2 {
+    position: absolute;
+    top: 77px;
+    left: 30px;
+    font-size: 63px;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+	text-shadow: 2px 2px 0 #FFF, -2px 2px 0 #FFF, 2px -2px 0 #FFF, -2px -2px 0 #FFF;
   }
   .mv_txt .txt01 {
     position: absolute;
@@ -327,7 +340,7 @@
     border-bottom: 4px solid #fff100;
   }
   .ach {
-    background-color: #dbdbdb;
+    background-color: #FFF;
     padding-bottom: 83px;
   }
   .ach .ttl02 {
@@ -851,7 +864,7 @@
   .mv_txt {
     position: absolute;
     padding-bottom: 4vw;
-    top: 18.4vw;
+    top: 10.4vw;
     left: 5.33333vw;
     width: 89.33333vw;
     margin: 0 auto 0;
@@ -870,12 +883,23 @@
   .mv_txt .row .txt_top {
     position: absolute;
     top: 4.13333vw;
-    left: 0;
-    font-size: 3.33333vw;
+    left: 4.13333vw;
+    font-size: 3.1vw;
     color: #ca391b;
     font-weight: bold;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    letter-spacing: -0.26667vw;
+  }
+  .mv_txt .row .txt_toph2 {
+    position: absolute;
+    top: 10.13333vw;
+    left: 4.13333vw;
+    font-size: 5.33333vw;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
     letter-spacing: -0.26667vw;
   }
   .mv_txt .row .txt01 {
@@ -1142,7 +1166,7 @@
     border-bottom: 0.8vw solid #fff100;
   }
   .ach {
-    background-color: #dbdbdb;
+    background-color: #FFF;
     padding-bottom: 11.06667vw;
   }
   .ach .row {
