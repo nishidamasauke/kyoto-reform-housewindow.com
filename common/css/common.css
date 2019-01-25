@@ -1880,3 +1880,21 @@ html, body {
      -moz-transition-delay: 1.5s;
           transition-delay: 1.5s;
 }
+#sec01:before,
+#sec02:before,
+#sec03:before,
+#sec04:before,
+#sec05:before,
+#sec06:before,
+#sec07:before,
+#sec08:before{
+    content: "";
+    display: inline-block;
+    height: 50px;
+    margin-top: -50px;
+    vertical-align: top;
+}
+a.no-opa:hover,
+a.no-opa img:hover{
+	opacity: 1;
+}

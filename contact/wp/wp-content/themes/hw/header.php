@@ -8,6 +8,20 @@
 <meta name="description" content="リフォームに関するあらゆるお困り事、ご相談、お気軽にお問い合わせください。現地調査、お見積り無料、リフォームローンや補助金の事もご対応可能です。">
 <meta name="keywords" content="リフォーム,京都,相談,問い合わせ">
 <title>お問い合わせ｜株式会社ハウスウィンドウ：京都</title>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WKQJH5M');</script>
+	<!-- End Google Tag Manager -->
+	<meta property="og:title" content="お問い合わせ｜株式会社ハウスウィンドウ：京都">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://kyoto-reform-housewindow.com/contact/">
+	<meta property="og:site_name" content="お問い合わせ｜株式会社ハウスウィンドウ：京都">
+	<meta property="og:description" content="リフォームに関するあらゆるお困り事、ご相談、お気軽にお問い合わせください。現地調査、お見積り無料、リフォームローンや補助金の事もご対応可能です。">
+	<meta property="og:image" content="https://kyoto-reform-housewindow.com/images/ogp_img.jpg">
+	<meta property="fb:app_id" content="">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <?php wp_head(); ?>
@@ -76,6 +90,10 @@
 </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKQJH5M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="container" class="container">
   <header id="header" class="header">
     <div class="header_top show_pc">
