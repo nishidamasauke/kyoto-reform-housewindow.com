@@ -774,7 +774,8 @@ html, body {
     width: 273px;
     height: auto;
   }
-  .header_mid > h1 {
+  .header_mid > h1,
+  .header_mid > .disc {
     position: absolute;
     left: 0;
     top: -47px;
