@@ -391,9 +391,8 @@
     font-weight: bold;
     background-color: #d6c9a7;
     display: inline-block;
-    margin-top: 1.73333vw;
     padding: 1.33333vw;
-    margin-bottom: 1.86667vw;
+	margin: 1.73333vw 10px 1.86667vw;
   }
   .work .ttl04 {
     font-size: 4vw;
@@ -406,7 +405,7 @@
   }
   .work .txt_lg {
     font-size: 5.6vw;
-    margin-bottom: 2.66667vw;
+	 margin: 0 10px 2.66667vw;
   }
   .work .tac {
     margin-top: 0.53333vw;
@@ -436,7 +435,7 @@
     height: auto;
   }
   .work .sec_block01 p {
-    margin-bottom: 4vw;
+    margin: 0 10px 4vw;
   }
   .work .sec_block02_fa .before {
     padding-bottom: 13.33333vw;

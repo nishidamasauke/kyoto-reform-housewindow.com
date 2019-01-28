@@ -259,9 +259,9 @@
     color: #fff;
     font-weight: bold;
     position: relative;
-    padding-left: 41px;
+   /* padding-left: 41px;*/
   }
-  .top_link ul li:nth-of-type(1).type01::before {
+/*  .top_link ul li:nth-of-type(1).type01::before {
     width: 35px;
     height: 33px;
     background-image: url(../images/ic_hammer.png);
@@ -299,7 +299,7 @@
     height: 28px;
     background: url(../images/ic_home.png) center/contain no-repeat;
     display: block;
-  }
+  }*/
   .top_link ul li:nth-of-type(2) a {
     background-color: #fff;
     font-size: 1.4rem;
@@ -1082,13 +1082,13 @@
     color: #fff;
     font-weight: bold;
     position: relative;
-    padding-left: 5.33333vw;
+    /*padding-left: 5.33333vw;*/
     letter-spacing: -0.53333vw;
   }
   .top_link ul li:nth-of-type(1).type01 {
     margin-bottom: 1.33333vw;
   }
-  .top_link ul li:nth-of-type(1).type01::before {
+/*  .top_link ul li:nth-of-type(1).type01::before {
     width: 4.66667vw;
     height: 4.4vw;
     background-image: url(../images/ic_hammer.png);
@@ -1121,7 +1121,7 @@
     height: 3.73333vw;
     background: url(../images/ic_home.png) center/contain no-repeat;
     display: block;
-  }
+  }*/
   .top_link ul li:nth-of-type(2) {
     margin-top: 1.33333vw;
   }
